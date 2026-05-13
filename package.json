@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-nasa-power",
+  "version": "0.1.0",
+  "description": "NASA POWER MCP — Prediction of Worldwide Energy Resources",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nasa-power"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-nasa-power"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
