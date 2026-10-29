@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-nasa-power",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "NASA POWER MCP — Prediction of Worldwide Energy Resources",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-nasa-power": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nasa-power"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-nasa-power.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/nasa-power",
   "pipeworx": {
-    "sourceHash": "v1-6da1c5d620a1983d0bf5b9ffef24d292ff7d5e4b0514fc9136cda5ece1672a99",
-    "sourceCommit": "774de7f685a75e02d0b828d24a7b94794102152c"
+    "mode": "gateway",
+    "slug": "nasa-power",
+    "gatewaySlug": "nasa-power",
+    "sourceHash": "v1-d9fcb55e91214def1219bd7a7d19bde2de6510790bef38ee5a36b7e0e0b4bf4a",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
