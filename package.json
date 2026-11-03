@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nasa-power",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "NASA POWER MCP — Prediction of Worldwide Energy Resources",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "nasa-power",
     "gatewaySlug": "nasa-power",
-    "sourceHash": "v1-d9fcb55e91214def1219bd7a7d19bde2de6510790bef38ee5a36b7e0e0b4bf4a",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-ef4aa922174152d5e78d4269d152756638058eeebb3a331ec9691cee5936c0d4",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
